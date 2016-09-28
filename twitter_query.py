@@ -6,4 +6,4 @@ for i in ["a", 1, 2, 34, "open sesame"]:
 
   
 print "done"
-print "this is ony for the new commit"
+print "this is to test the change"
