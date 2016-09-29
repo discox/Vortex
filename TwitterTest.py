@@ -1,8 +1,9 @@
 from nltk.twitter import Twitter
 
-# need to set the environment variable: TWITTER=/home/mat/PycharmProjects/ScanX/twitter-files
+# need to set the environment variable: export TWITTER="/home/cabox/workspace/twitter-files/credentials.txt"
 
 tw = Twitter()
+
 
 #tw.tweets(keywords='Donald, Trump', limit=10)
 

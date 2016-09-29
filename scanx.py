@@ -1,6 +1,6 @@
 ########### listen in on twitter ###########
 
-#user id: matpeyron pwd: globalreach
+
 #use nltk (already in Anaconda)? or tweetstream? or tweepy?
 
 print('the program starts')
