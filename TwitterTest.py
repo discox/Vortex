@@ -1,4 +1,5 @@
-import NLTK
+import nltk
+
 from nltk.twitter import Twitter
 
 # need to set the environment variable: export TWITTER="/home/cabox/workspace/twitter-files/credentials.txt"
