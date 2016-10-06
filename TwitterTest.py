@@ -1,4 +1,4 @@
-import nltk
+#import nltk
 
 from nltk.twitter import Twitter
 
@@ -7,6 +7,6 @@ from nltk.twitter import Twitter
 tw = Twitter()
 
 
-#tw.tweets(keywords='Donald, Trump', limit=10)
+tw.tweets(keywords='Donald, Trump', limit=10)
 
-tw.tweets(follow=['759251', '612473'], to_screen=True, limit=10)
+#tw.tweets(follow=['759251', '612473'], to_screen=True, limit=10)
