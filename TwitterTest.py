@@ -3,7 +3,7 @@
 from nltk.twitter import Query, Streamer, Twitter, TweetViewer, TweetWriter, credsfromfile
 
 
-# need to set the environment variable: export TWITTER="/home/cabox/workspace/twitter-files/credentials.txt"
+# need to set the environment variable: export TWITTER="/home/mpeyron/Vortex/twitter-files"
 
 tw = Twitter()
 
