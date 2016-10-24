@@ -8,6 +8,7 @@ from nltk.twitter import Twitter, credsfromfile, Query
 
 
 
+
 tw = Twitter()
 
 ########### input parameters ###########
@@ -33,9 +34,12 @@ client = Query(**oauth)
 
 tweets = client.search_tweets(keywords=stock_ticker, limit=num_tweets)
 
-tweet = next(tweets)
-from pprint import pprint
-pprint(tweet, depth=1)
+
+for tweet_obj in tweets:
+    print(tweet_obj['text'])
+
+
+
 
 
 ########### build list of authors ###########
