@@ -1,9 +1,15 @@
 
-#use nltk or tweetstream? or tweepy?
+#print('checking environment variables')
 
-print('importing libraries')
+#import os
+#print(os.environ)
+
+#print('test successful')
+
+print('import libraries')
 
 # need to set the environment variable: export TWITTER="/home/mpeyron/Vortex/twitter-files"
+# if using pycharm set environment variable with relevant path TWITTER="/Users/mpeyron/PycharmProjects/Vortex/twitter-files"
 from nltk.twitter import Twitter, credsfromfile, Query
 from sentiment import polarity
 
@@ -64,7 +70,7 @@ print("sentiments are", sentiments)
 
 list_of_authors = set(authors)
 input_authors = []
-for auth in authors:
+#for auth in authors:
 
 
 
