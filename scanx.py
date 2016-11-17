@@ -1,10 +1,14 @@
 
-#print('checking environment variables')
+import sys
+print("the version is")
+print(sys.version)
 
-#import os
-#print(os.environ)
+print('checking environment variables')
 
-#print('test successful')
+import os
+print(os.environ)
+
+print('test successful')
 
 print('import libraries')
 
